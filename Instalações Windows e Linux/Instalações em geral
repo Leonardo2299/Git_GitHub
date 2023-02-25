@@ -1,0 +1,28 @@
+Visual Studio para Windows:
+Na instalação, marar as caixas: 
+- "Add Open with Code" action to Windows Explorer file context menu
+- "Add Open with Code" action to Windows Explorer directory context menu
+
+Depois de instalado, abrir o programa e clicar em "Extensões":
+- escrever "portuguese" e instalar a extensão de tradução para o portugês.
+
+Clicar em "Arquivo" e escolher a opção: Salvar automaticamente
+
+Clicar em "Arquivo -> Preferências -> Configurações" (ou ctrl + ,) e digitar "word wrap" e escolher ON para pular para linha de baixo
+
+
+Git
+
+GitHub Desktop
+
+
+GitDesktop para Linux:
+sudo apt update
+sudo apt upgrade -y
+sudo apt install git -y
+git --version
+Ir no perfil do github: github.com/shiftkey ou github.com/shiftkey/desktop
+    ir no repositório "desktop" -> README.md e clicar em "release" (que vai estar no texto)
+        baixar a versão .deb e fazer a instalação
+
+
