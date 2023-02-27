@@ -1,0 +1,58 @@
+Negrito -> **negrito** ou __negrito__
+
+Itálico -> *itálico8 ou _itálico_
+
+Tachado -> ~~tachado~~
+
+Negrito + itálico -> __*exemplo*__
+
+Título nível 1 -> #Título
+
+Título nível 2 -> ##Título
+
+Título nível 3 -> ###Título
+
+Fazer uma linha embaixo do título -> *** ou ---
+
+Lista numerada:
+1. Teste
+2. Teste2
+   i. Teste3
+   i. Teste5
+3. Teste4
+
+Lista demarcada:
+- ou * Teste
+* Teste
+* Teste
+   *Teste
+
+Lista de Tarefas:
+- [] Fazer alguma coisa 1
+- [] Fazer alguma coisa 2
+- [x] Fazer alguma coisa 3
+
+Imagem -> arrastar para dentro, emaixo da linha pontilhada. Tudo que tiver dentro dos colchetes, será a descrição da imagem.
+
+Links -> [o que a pessoa vai ver aqui](link aqui dentro)
+
+Tabela:
+Num|Nome|Nota
+---|---|---
+1|Caio|10
+2|César|8,5
+
+Comandos de programas: `document.getElementById()`
+
+Trechos de programas:
+```
+a = 1
+b = 2
+c = a + b
+System.out.print("C vale: %d", c);
+```
+
+Emoticons: colocar os dois pontos -> :hand :vulcan 
+Site com todos os emoticos -> https://github.com/ikatyang/emoji-cheat-sheet
+
+Colocar emoji nos títulos: acessar o site https://emojipedia.org/ e copiar de lá
