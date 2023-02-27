@@ -1,6 +1,6 @@
 Negrito -> **negrito** ou __negrito__
 
-Itálico -> *itálico8 ou _itálico_
+Itálico -> *itálico* ou _itálico_
 
 Tachado -> ~~tachado~~
 
