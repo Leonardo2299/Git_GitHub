@@ -1,0 +1,92 @@
+Local onde fica todos os comandos:
+C:\Program Files\Git\mingw64\share\doc\git-doc
+
+Para começar a trabalhar com o git no computador:
+
+git config --global --list -> para ver se está configurado no nome de alguém.
+
+git config --global user.name "Seu nome aqui"
+
+git config --global user.email "seu email aqui"
+
+ctrl + L -> limpa a tela
+
+cd .. -> volta uma pasta
+
+ls -a -> mostra todos os arquivos, inclusive os ocultos
+
+mv projeto-02 projeto-2 -> move para a mesma pasta, mas mudando o nome de projeto-02 para projeto-2
+
+mkdir pasta-git -> criando a pasta git no diretório que você escolher
+
+pwd -> mostra o caminho todo
+
+git init . -> inicializar o git
+
+touch teste.txt -> cria um arquivo de texto
+
+git status -> verificar o status do git
+
+git add . -> adicionar um arquivo  (passa o arquivo para modo Preparado)
+
+git commit -m "Primeiro commit"
+
+ou git commit -a -m "escreve o commit aqui" -> com o -a ele já faz o git add + o commit
+ou git add. && git commit -m "escreva aki" -> junta os dois comandos.
+
+git commit -m "primeiro commit" --author="Fulano <emailDoFulano@gmail.com>
+
+git log -> verificar os log do git
+
+C:\Program Files\Git\mingw64\share\doc\git-doc -> help dos comandos
+
+git show -> ver o que foi alterado nos útimos commit
+
+git log
+
+git log --online -> mostra os commits
+
+git diff -> mostra as alterações nos arquivos
+
+git diff --staged -> arquivos que foram alterados mas não foram commitados ainda
+
+git rm nomedoarquivo -> exclui o arquivo. Tem que commitar depois
+
+git log --diff-filter=D --summary -> mostra os arquivos que foram excluídos
+
+git checkout as4PrimeirasLetrasDoCommit~1 nomedoarquivo -> recupera o arquivo excluído
+
+git commit --amend -> edita o último commit. Mas só se não tiver feito push ainda
+
+git revert <hash do commit> -> revert o commit
+
+Adiciona um arquivo chamado ".gitignore" e colocar todos os arquivos ou pasta que serão ignorados
+
+gitk -> visualizador de relatórios na interface gráfica 
+
+git branch teste -> cria uma branch chamada teste
+git checkout teste -> muda para a branch teste
+ou
+git checkout -b teste -> já cria a branch teste e já muda pra ela.
+
+git branch -d teste -> deleta a branch
+
+git merge teste -> você tem que estar na branch master para fazer o branch do teste (você vai pra branch principal e faz o merge nela)
+
+git clone
+
+git push sua chave ssh
+git remote add origin suachavessh
+git remote -v ->para ver se está configurado o origin
+
+git push origin main -> enviar para origin main
+
+git pull origin main -> baixar da origin main
+
+git stash -> guarda uma modificação
+git stash apply -> aplica as mudanças que eu fiz
+git stash list -> mostra todas os stash que eu tenho
+git stash clear -> limpa meu stash
+
+
+
